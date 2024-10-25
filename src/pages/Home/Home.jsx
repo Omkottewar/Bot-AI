@@ -5,7 +5,7 @@ import ChatInput from '../../Components/ChatInput/ChatInput.jsx';
 import ChatCard from '../../Components/ChatCard/ChatCard.jsx';
 import FeedbackForm from '../../Components/FeedbackForm/FeedbackForm.jsx';
 import data from '../../SampleData.js';
-import Navbar from '../../components/Navbar/Navbar';
+import Navbar from '../../Components/Navbar/Navbar';
 
 export default function Home() {
   const { toggleMenu } = useOutletContext(); 
