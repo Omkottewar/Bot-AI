@@ -1,6 +1,8 @@
 BOT AI
 
-deployed Link -  <br/>
+deployed Link -https://bot-ai-one-mu.vercel.app/  <br/>
+
+
 Using the Application
 Homepage: The homepage features an intuitive chat interface. Users can start a new conversation or access past conversations from the sidebar menu.<br/>
 New Chat: Click on "New Chat" to start a conversation. Type your message in the input box and press Enter to send.
