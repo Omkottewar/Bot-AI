@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
-import icon from "../../assets/newchat.png";
 import { AiOutlineClose } from "react-icons/ai";
 import { useMediaQuery } from "react-responsive";
-import { edit } from "../../assets/Index";
+import { edit, newChat } from "../../assets/Index";
 
 export default function Sidebar({ setChat, closeMenu }) {
   const isMobile = useMediaQuery({ query: "(max-width: 800px)" });
@@ -27,7 +26,7 @@ export default function Sidebar({ setChat, closeMenu }) {
           }}
         >
           <img
-            src={icon}
+            src={newChat}
             alt="Chat Icon"
             className="h-10 w-10 rounded-lg shadow-lg"
           />
