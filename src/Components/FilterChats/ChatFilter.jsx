@@ -1,13 +1,12 @@
 import { useEffect, useState } from 'react';
 
-export default function ChatFilter({ allChats, filterChats }) {
+const ChatFilter = ({ allChats, filterChats }) => {
     const [option, setOption] = useState('All Ratings');
 
     const handleChange = (e) => {
         setOption(e.target.value);
     };
 
-    // FILTER CHATS
     useEffect(() => {
         if (option === 'All Ratings') {
             filterChats(allChats);
@@ -37,4 +36,6 @@ export default function ChatFilter({ allChats, filterChats }) {
             </select>
         </div>
     );
-}
+};
+
+export default ChatFilter;
