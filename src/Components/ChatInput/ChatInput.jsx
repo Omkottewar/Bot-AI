@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-export default function ChatInput({ generateResponse, chat, clearChat }) {
+const ChatInput = ({ generateResponse, chat, clearChat }) => {
     const [input, setInput] = useState('');
     const [showSnackbar, setShowSnackbar] = useState(false);
 
@@ -58,4 +58,6 @@ export default function ChatInput({ generateResponse, chat, clearChat }) {
             )}
         </div>
     );
-}
+};
+
+export default ChatInput;
