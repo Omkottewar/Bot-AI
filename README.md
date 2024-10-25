@@ -8,7 +8,7 @@ Homepage: The homepage features an intuitive chat interface. Users can start a n
 New Chat: Click on "New Chat" to start a conversation. Type your message in the input box and press Enter to send.
 Chat History: Access your past conversations from the sidebar to review previous interactions.
 
- <strong>Technical Choices</strong>
+ <strong>Technical Choices</strong><br/>
 React: Used for building the user interface due to its component-based architecture, which allows for reusable and manageable code.<br/>
 React Router: Implemented for seamless navigation between the homepage and the chat history page, enhancing user experience.<br/>
 Context API: Used for state management to avoid prop drilling and maintain global state across components easily.
