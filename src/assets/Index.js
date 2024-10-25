@@ -1,0 +1,5 @@
+export {default as edit} from './edit.png'
+export {default as newChat} from './newChat.png'
+export {default as bot} from './bot.png'
+export {default as person} from './person.png'
+export {default as message} from './message.svg'
